@@ -1,0 +1,66 @@
+.container {
+  background-color: #ffd569;
+  height: 100vh;
+  padding: 50px;
+}
+
+.cardContainer {
+  background-color: white;
+  border-radius: 15px;
+  background-size: cover;
+  padding: 25px;
+  box-shadow: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.head {
+  color: #000000;
+  font-family: Roboto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.mango {
+  color: #f4bb44;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.banana {
+  color: #ffe135;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.countContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.imageButton {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  height: 350px;
+  width: 350px;
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  font-family: Bree Serif;
+  cursor: pointer;
+  border-radius: 6px;
+  height: 35px;
+  width: 85px;
+  margin: 15px;
+  border: none;
+}
